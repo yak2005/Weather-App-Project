@@ -33,7 +33,7 @@ weather-app/
 ├── README.md     # Project documentation
 
 ##Screenshots 📸
-![Image](https://github.com/user-attachments/assets/a8f2f723-5f74-4c6f-8c81-c1a14b2eae54)
+![Image](https://github.com/user-attachments/assets/b5f55417-0669-48b0-a5d3-a3a190042a88)
 
 ##API Key 🔑
 const apiKey = '6efc65b2e203b021142720ce5e0362c8';
