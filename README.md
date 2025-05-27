@@ -21,6 +21,9 @@ A modern and responsive weather application that allows users to check the curre
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/weather-app.git
+2. Navigate to the project directory:
+   cd weather-app
+4. Open index.html in your browser to run the app.
 
 ##Project Structure 📁
 weather-app/
@@ -30,5 +33,13 @@ weather-app/
 ├── README.md     # Project documentation
 
 ##Screenshots 📸
+![Image](https://github.com/user-attachments/assets/a8f2f723-5f74-4c6f-8c81-c1a14b2eae54)
+
+##API Key 🔑
+const apiKey = '6efc65b2e203b021142720ce5e0362c8';
+
+##License 📜
+This project is licensed under the MIT License.
+
 
 
