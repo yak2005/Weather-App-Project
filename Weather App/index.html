@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Weather App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 flex flex-col items-center justify-center min-h-screen">
+    <div class="container mx-auto p-6">
+        <h1 class="text-4xl font-bold mb-8 text-center">Modern Weather App</h1>
+        
+        <!-- Weather Search -->
+        <div class="flex gap-4 items-center mb-6">
+            <input 
+                type="text" 
+                id="location-input" 
+                placeholder="Enter city name" 
+                class="px-4 py-2 border border-gray-300 rounded-lg shadow-md w-80 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700"
+            />
+            <button 
+                id="get-weather-btn" 
+                class="px-6 py-2 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-600 transition"
+            >
+                <i class="fas fa-search"></i> Search
+            </button>
+            <button 
+                id="current-location-btn" 
+                class="px-6 py-2 bg-green-500 text-white font-semibold rounded-lg shadow-md hover:bg-green-600 transition"
+            >
+                <i class="fas fa-map-marker-alt"></i> Current Location
+            </button>
+        </div>
+        
+        <!-- Weather Info -->
+        <div id="weather-info" class="w-full max-w-xl bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg"></div>
+        
+        <!-- Favorite Cities -->
+        <div id="favorites" class="mt-8 w-full max-w-xl">
+            <h2 class="text-xl font-semibold mb-4">Favorite Cities</h2>
+            <ul id="favorites-list" class="grid grid-cols-1 sm:grid-cols-2 gap-4"></ul>
+        </div>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
